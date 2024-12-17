@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: _Test HoloLens App
+  companyName: Dawid Machaj
+  productName: _HoloLens App V1.1 Debug
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -677,14 +677,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: TestHoloLensApp
+  metroPackageName: HoloLensAppV1.1Debug
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
   metroCertificateNotAfter: 00006fee20aedb01
-  metroApplicationDescription: Test HoloLens App
+  metroApplicationDescription: HoloLensAppV1.1 Debug
   wsaImages: {}
   metroTileShortName: Test HoloLens App
   metroTileShowName: 0
@@ -701,6 +701,8 @@ PlayerSettings:
   platformCapabilities:
     WindowsStoreApps:
       GazeInput: True
+      PrivateNetworkClientServer: True
+      InternetClientServer: True
       SpatialPerception: True
       WebCam: True
       Microphone: True
